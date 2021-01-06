@@ -6,18 +6,28 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://scarlxtt.github.io">
-  <title>Archives: 2020 | ScarlxTTの摸鱼记</title>
+  <title>Mac Excel 文本合并与拆分 | ScarlxTTの摸鱼记</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="设计师,交互,ui,ps,ai,axure,设计狮,Designer,html,css,用户体验">
-<meta property="og:type" content="website">
-<meta property="og:title" content="ScarlxTTの摸鱼记">
-<meta property="og:url" content="https://scarlxtt.github.io/archives/2020/page/2/index.html">
+  <meta name="description" content="Excel 对文本进行合并&#x2F;拆分的4种方法：  使用文本连接符「&amp;」； 使用「Phonetic函数」； 使用「两端对齐」； 使用「Word」.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mac Excel 文本合并与拆分">
+<meta property="og:url" content="https://scarlxtt.github.io/2020/12/30/excelnote08/index.html">
 <meta property="og:site_name" content="ScarlxTTの摸鱼记">
-<meta property="og:description" content="设计师,交互,ui,ps,ai,axure,设计狮,Designer,html,css,用户体验">
+<meta property="og:description" content="Excel 对文本进行合并&#x2F;拆分的4种方法：  使用文本连接符「&amp;」； 使用「Phonetic函数」； 使用「两端对齐」； 使用「Word」.">
 <meta property="og:locale" content="zn_CN">
+<meta property="og:image" content="https://i.loli.net/2021/01/06/yWf5qES3lbTmAPw.png">
+<meta property="og:image" content="https://i.loli.net/2021/01/06/wiFlmhuUWPyBkqY.png">
+<meta property="og:image" content="https://i.loli.net/2021/01/06/oDCgV2JptjZ3QLk.png">
+<meta property="og:image" content="https://i.loli.net/2021/01/06/9wXNhPOIl75xKWS.png">
+<meta property="og:image" content="https://i.loli.net/2021/01/06/RlEGsMIOidXm8fP.png">
+<meta property="og:image" content="https://i.loli.net/2021/01/06/7lXtaVZ6nQyOgCd.png">
+<meta property="og:image" content="https://i.loli.net/2021/01/06/UphNl7vu9JF6w2W.png">
+<meta property="article:published_time" content="2020-12-30T13:49:54.000Z">
+<meta property="article:modified_time" content="2021-01-06T07:35:02.900Z">
 <meta property="article:author" content="ScarlxTT">
-<meta property="article:tag" content="设计师,交互,ui,ps,ai,axure,设计狮,Designer,html,css,用户体验">
+<meta property="article:tag" content="Excel">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/01/06/yWf5qES3lbTmAPw.png">
   
     <link rel="alternative" href="/atom.xml" title="ScarlxTTの摸鱼记" type="application/atom+xml">
   
@@ -151,222 +161,136 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-excelnote08" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Mac Excel 文本合并与拆分
+    </h1>
+  
+
+        
+        <a href="/2020/12/30/excelnote08/" class="archive-article-date">
+  	<time datetime="2020-12-30T13:49:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-12-30</time>
+</a>
+        
+      </header>
     
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Excel 对文本进行合并/拆分的4种方法：</p>
+<ol>
+<li>使用文本连接符「&amp;」；</li>
+<li>使用「Phonetic函数」；</li>
+<li>使用「两端对齐」；</li>
+<li>使用「Word」.</li>
+</ol>
+<a id="more"></a>
+
+<h3 id="1-使用文本连接符「-amp-」合并"><a href="#1-使用文本连接符「-amp-」合并" class="headerlink" title="1 使用文本连接符「&amp;」合并"></a>1 使用文本连接符「&amp;」合并</h3><p>手动输入公式：**”文本”&amp;”文本”&amp;…**<br><img src="https://i.loli.net/2021/01/06/yWf5qES3lbTmAPw.png" alt="文本连接符" width="400px"></p>
+<h3 id="2-使用「Phonetic函数」合并"><a href="#2-使用「Phonetic函数」合并" class="headerlink" title="2 使用「Phonetic函数」合并"></a>2 使用「Phonetic函数」合并</h3><p>输入函数：<strong>Phonetic(要连接的单元格组合)</strong><br><img src="https://i.loli.net/2021/01/06/wiFlmhuUWPyBkqY.png" alt="连接函数" width="400px"></p>
+<h3 id="3-使用「两端对齐」合并"><a href="#3-使用「两端对齐」合并" class="headerlink" title="3 使用「两端对齐」合并"></a>3 使用「两端对齐」合并</h3><p>① 选中要合并的数据列，将单元格拉宽至可容纳合并后的数据；<br>② 在「开始」选项卡中选择 <strong>「两端对齐」</strong>；<br><img src="https://i.loli.net/2021/01/06/oDCgV2JptjZ3QLk.png" alt="两端对齐" width="400px"></p>
+<p>合并后的数据为<br><img src="https://i.loli.net/2021/01/06/9wXNhPOIl75xKWS.png" alt="已对齐" width="210px"></p>
+<p>🌟 Tips:<br>① 若想合并成<strong>多行</strong>，则先在要换行的词下<strong>插入一行空行</strong>，再进行合并<br>② 若想<strong>拆分</strong>成多行，将列宽调整为<strong>想要的宽度</strong>，再选择两端对齐，一行即拆分成多行</p>
+<h3 id="4-使用「Word」拆分"><a href="#4-使用「Word」拆分" class="headerlink" title="4 使用「Word」拆分"></a>4 使用「Word」拆分</h3><p>前提：原始表格数据必须带有<strong>分隔符</strong><br><img src="https://i.loli.net/2021/01/06/RlEGsMIOidXm8fP.png" alt="已对齐" width="210px"></p>
+<p>拆分思路：将分隔符替换为换行符<br>① 将表格复制到 Word；<br>② 在 Word 中，按下<strong>ctrl+H</strong>，打开「查找和替换」窗口；<br>③ 将分隔符替换为换行符 <strong>「^p」</strong><br><img src="https://i.loli.net/2021/01/06/7lXtaVZ6nQyOgCd.png" alt="查找与替换" width="210px"></p>
+<p>替换结果为<br><img src="https://i.loli.net/2021/01/06/UphNl7vu9JF6w2W.png" alt="已换行" width="240px"></p>
+<p>④ 将表格复制到Excel，调整格式即可</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/10/03/uxdiary4-20201003/" class="archive-article-date">
-  	<time datetime="2020-10-03T09:33:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-03</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/10/03/uxdiary4-20201003/">体验周记#04</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">UX体验周记</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Excel</a>
         		</li>
       		
 		</ul>
 	</div>
 
 
-          
+      
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/09/01/diary-2020-09-01/" class="archive-article-date">
-  	<time datetime="2020-09-01T15:23:14.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-09-01</time>
-</a>
+<nav id="article-nav">
+  
+    <a href="/2020/12/31/diary-2020-12-31/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          关于「多重目的地」
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/12/30/excelnote07/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Mac Excel 快速统计/删除 重复记录</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/09/01/diary-2020-09-01/">对细节保持敏感</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">UXnotes</a>
-        		</li>
-      		
-		</ul>
-	</div>
+        
+        
+          <span class="tooltip-content">
+              <div class="toc-article">
+              <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E4%BD%BF%E7%94%A8%E6%96%87%E6%9C%AC%E8%BF%9E%E6%8E%A5%E7%AC%A6%E3%80%8C-amp-%E3%80%8D%E5%90%88%E5%B9%B6"><span class="toc-number">1.</span> <span class="toc-text">1 使用文本连接符「&amp;」合并</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E4%BD%BF%E7%94%A8%E3%80%8CPhonetic%E5%87%BD%E6%95%B0%E3%80%8D%E5%90%88%E5%B9%B6"><span class="toc-number">2.</span> <span class="toc-text">2 使用「Phonetic函数」合并</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E4%BD%BF%E7%94%A8%E3%80%8C%E4%B8%A4%E7%AB%AF%E5%AF%B9%E9%BD%90%E3%80%8D%E5%90%88%E5%B9%B6"><span class="toc-number">3.</span> <span class="toc-text">3 使用「两端对齐」合并</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E4%BD%BF%E7%94%A8%E3%80%8CWord%E3%80%8D%E6%8B%86%E5%88%86"><span class="toc-number">4.</span> <span class="toc-text">4 使用「Word」拆分</span></a></li></ol>
+              </div>
+          </span>
+        <!-- <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+            </div>
+        </div> -->
+        
+    </div>
+</aside>
 
 
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/08/29/uxdiary2-20200829/" class="archive-article-date">
-  	<time datetime="2020-08-29T06:47:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-29</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/08/29/uxdiary2-20200829/">体验周记#02</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">UX体验周记</a>
-        		</li>
-      		
-		</ul>
-	</div>
 
 
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/08/26/fivesense/" class="archive-article-date">
-  	<time datetime="2020-08-26T13:30:45.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-26</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/08/26/fivesense/">「五感体验」</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">UXnotes</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/08/22/uxdiary1-20200822/" class="archive-article-date">
-  	<time datetime="2020-08-22T03:03:38.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-22</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/08/22/uxdiary1-20200822/">体验周记#01</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">UX体验周记</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
   
-    </div></section>
   
 
-    
-    <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/archives/2020/">« Prev</a><a class="page-number" href="/archives/2020/">1</a><span class="page-number current">2</span>
-    </nav>
   
 
+  
+
+  
 
 
           </div>
@@ -398,8 +322,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
